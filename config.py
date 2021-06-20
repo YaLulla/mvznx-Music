@@ -9,7 +9,7 @@ ydl_opts = {
 ydl = YoutubeDL(ydl_opts)
 links=[]
 finalurl=""
-STREAM=os.environ.get("STREAM_URL", "https://youtu.be/W9NyVYHtrIU") # 24x7 Tamil Romantic Hits
+STREAM=os.environ.get("STREAM_URL", "https://youtu.be/UFN98YMzzZI") # 24x7 Hindi Romantic Hits
 regex = r"^(https?\:\/\/)?(www\.youtube\.com|youtu\.?be)\/.+"
 match = re.match(regex,STREAM)
 if match:
