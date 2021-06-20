@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 
 
 
-HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\n• Iam A Bot Project by MwK MusicS\n• I Can Manage Group VC's\n\n• Hit /help to know about available commands.</b>"
+HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\n• Iam A Bot Project ny MoviZenX\n• I Can Manage Group VC's\n\n• Hit /help to know about available commands.</b>"
 HELP = """
 
 <b>🤖 Read The Below Commands 🤖</b>
@@ -21,7 +21,7 @@ HELP = """
 **/sk** [n] ...  Skip current or n where n >= 2
 **/j**  Join voice chat.
 **/l**  Leave current voice chat
-**/mwk**  Check which VC is joined.
+**/mzx**  Check which VC is joined.
 **/sp**  Stop playing.
 **/r** Start Radio.
 **/sr** Stops Radio Stream.
@@ -40,13 +40,13 @@ HELP = """
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('🎭 Developer 🎭️', url='https://t.me/shamilnelli'),
+        InlineKeyboardButton('🎭 Developer 🎭️', url='https://t.me/AnnihilusOP'),
                 ],[
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('🎟️ Movies', url='https://t.me/movieworldkdy'),
-                InlineKeyboardButton('📻 Songs', url='https://t.me/mwksongs'),
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/movizenx'),
+                InlineKeyboardButton('🎟️ Movies', url='https://t.me/movizenix'),
+                InlineKeyboardButton('📻 Songs', url='https://t.me/MZX_SUPPORT'),
                ],[
-                InlineKeyboardButton('🌎 Source - Code 🌎', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('🌎 Developer 🌎', url='https://t.me/AnnihilusOP'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -58,13 +58,13 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-            InlineKeyboardButton('🎭 Developer 🎭️', url='https://t.me/shamilnelli'),
+            InlineKeyboardButton('🎭 Developer 🎭️', url='https://t.me/AnnihilusOP'),
                 ],[
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('🎟️ Movies', url='https://t.me/movieworldkdy'),
-                InlineKeyboardButton('📻 Songs', url='https://t.me/mwksongs'),
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/movizenx'),
+                InlineKeyboardButton('🎟️ Movies', url='https://t.me/movizenix'),
+                InlineKeyboardButton('📻 Songs', url='https://t.me/mzx_support'),
                ],[
-                InlineKeyboardButton('🌎 Source - Code 🌎', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('🌎 Creator 🌎', url='https://t.me/AnnihilusOP'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
