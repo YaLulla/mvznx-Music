@@ -210,7 +210,7 @@ async def deezer(_, message):
         title = songs.result[0].title
 
     except:
-        await msg.edit("😖 Nothing To Be Found... 👎 Can You Check Spelling")
+        await msg.edit("😖 Nothing To Be Found... 👎 Spelling check kar bhai")
         return
     data={1:title, 2:url, 3:"deezer", 4:user}
     playlist.append(data)
@@ -265,7 +265,7 @@ async def player(_, m: Message):
                             InlineKeyboardButton("⏯ Pause", callback_data="ps")
                         ],[
                             InlineKeyboardButton("⏩ Skip", callback_data="sk"),
-                            InlineKeyboardButton("📻 Musics", url="https://t.me/mwksongs")
+                            InlineKeyboardButton("📻 Movie Group", url="https://t.me/movizenix")
                 ],
 			]
 			)
@@ -341,7 +341,7 @@ async def leave_voice_chat(_, m: Message):
     await m.reply_text("Left the VC")
 
 
-@Client.on_message(filters.command("mwk") & filters.user(ADMINS))
+@Client.on_message(filters.command("mzx") & filters.user(ADMINS))
 async def list_voice_chat(client, m: Message):
     group_call = mp.group_call
     if group_call.is_connected:
