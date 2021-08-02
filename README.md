@@ -1,4 +1,4 @@
-👑 [Don't touch](buttonurl:https://telegram.dog/movizenx)
+👑 [Don't touch](:https://telegram.dog/movizenx)
 # Vars:
 1. `API_ID` : Get From my.telegram.org
 2. `API_HASH` : Get from my.telegram.org
