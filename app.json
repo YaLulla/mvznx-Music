@@ -1,7 +1,7 @@
 {
-  "name": "MwK-Musics PyTGcalls",
+  "name": "mvznx music",
   "description": "Telegram Bot to Play Audio And Live Streams in PyTGcalls",
-  "repository": "https://github.com/shamilhabeebnelli/MwK-Musics",
+  "Telegram": "https://telegram.dog/MoviZenX",
   "keywords": [
     "telegram",
     "bot",
@@ -35,7 +35,7 @@
       "required": true
     },
     "CHAT": {
-      "description": "ID of Channel or Group where the Bot plays Music",
+      "description": "ID of Channel or Group where the Bot plays Music | Apne Group ka Link",
       "required": true
     },
     "LOG_GROUP": {
