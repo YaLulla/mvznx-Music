@@ -1,31 +1,4 @@
-# Bot To Stream Musics on PyTGcalls with Channel Support.
-
-A Telegram Bot to Play Audio in Voice Chats With Youtube and Deezer support.
-Supports Live streaming from youtube
-Supports Mega Radio Fm Streamings
-
-```
-Please fork this repository don't import code
-Made with Python3
-(C) @shamilhabeebnelli
-License -> https://github.com/shamilhabeebnelli/MwK-Musics/blob/master/LICENSE
-```
-
-## Deploy to Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shamilhabeebnelli/mwk-musics)
-
-
-### Deploy to VPS
-
-```sh
-git clone https://github.com/shamilhabeebnelli/MwK-Musics
-cd MwK-Musics
-pip3 install -r requirements.txt
-# <Create Variables appropriately>
-python3 main.py
-```
-
+👑 <a href="t.me/MoviZenX">Don't Touch</a>
 # Vars:
 1. `API_ID` : Get From my.telegram.org
 2. `API_HASH` : Get from my.telegram.org
@@ -56,18 +29,4 @@ python3 main.py
 - Play from telegram file supported.
 - Starts Radio after if no songs in playlist.
 - Automatically downloads audio for the first two tracks in the playlist to ensure smooth playing
-- Automatic restart even if heroku restarts.
-```
-
-### Credits
-
-```
-• callsmusic
-• Inuka
-• Subinps
-• Rojserbest
-• PyTGcalls
-```
-#### Support
-
-Connect Me On [Telegram](https://telegram.dog/shamilnelli)
+- Automatic restart even if heroku restarts
